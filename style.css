@@ -140,6 +140,9 @@ section:last-child {
 	font-style: italic;
 	margin-bottom: 3px;
 }
+.keySkills ol {
+	list-style-type:none;
+}
 
 .keySkills {
 	list-style-type:square;
