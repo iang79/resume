@@ -89,6 +89,25 @@ body {
 }
 
 /* Secciones */
+
+/* Añade esto para centrar secciones específicas como el Perfil */
+.centered-section {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 700px; /* Limitamos el ancho para que sea más legible */
+    margin: 0 auto 40px auto;
+}
+
+.centered-section .sectionContent {
+    width: 100%;
+}
+
+.centered-section p {
+    text-wrap: balance; /* Mejora la estética del centrado en navegadores modernos */
+}
+
 #mainArea {
     padding: 40px;
 }
