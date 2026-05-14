@@ -111,6 +111,17 @@ body {
 #mainArea {
     padding: 40px;
 }
+/* Estilo para los enlaces dentro de los encabezados de artículos */
+.sectionContent h2 a {
+    color: inherit; /* Hereda el color blanco/gris del H2 */
+    text-decoration: none; /* Quita el subrayado molesto */
+    transition: color 0.3s ease;
+}
+
+.sectionContent h2 a:hover {
+    color: var(--accent); /* Se ilumina en azul cian al pasar el ratón */
+    text-decoration: underline; /* Opcional: añade subrayado solo al hacer hover */
+}
 
 section {
     display: grid;
